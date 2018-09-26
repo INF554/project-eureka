@@ -28,7 +28,7 @@ Developing based on **Agile Model**
     - Inkscape digitalize
     - Excel prototype
 2. Build
-    - Visual Studio Code -> IDE
+    - Visual Studio Code - IDE
     - JavaScript - programming language
     - CSS - styling
     - GitHub - version control
@@ -61,3 +61,8 @@ Week 11 | implementation
 Week 12 | integration 
 Week 13 | paper working / summarizing
 Week 14 | final webpage / video / final presentation
+
+## Authors
+- Yiran Li
+- Xiner Ning
+- Yueqin Yang 

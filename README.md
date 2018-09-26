@@ -26,6 +26,7 @@ Developing based on **Agile Model**
 1. Design
     - Brainstorm on whiteboard
     - Inkscape digitalize
+    - Excel prototype
 2. Build
     - Visual Studio Code -> IDE
     - JavaScript - programming language

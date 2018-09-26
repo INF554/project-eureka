@@ -13,13 +13,13 @@
 ## Slide 11 - What are the technologies you plan to use?
 - Bootstrap
 - D3.js
-- Google Map API
-- Angular.js
+- Google Maps API
+- Angular
 - React.js
 - Vue.js
-- Fontawesome
-- Underscore
-- Backbone
+- Font Awesome
+- Underscore.js
+- Backbone.js
 
 ## Slide 12 - How are you going to design, build, and evaluate?
 Developing based on **Agile Model**
@@ -27,22 +27,24 @@ Developing based on **Agile Model**
     - Brainstorm on whiteboard
     - Inkscape digitalize
 2. Build
-    - Visual Studio Code - IDE
+    - Visual Studio Code -> IDE
     - JavaScript - programming language
     - CSS - styling
     - GitHub - version control
 3. Evaluate 
     - Unit test for JavaScript
     - Multi-browser testing
-    - AB test
+    - A/B test
 ## Slide 13 - What are your deliverables?
 - Webpage
-- Conclusion / Analysis
+- Video
+- Paper
+- Publish on web server
 
 ## Slide 14 - How do you work together?
 - Meeting - brainstorm
 - GitHub - distributed development
-- WeChat - asynchronized communication
+- WeChat - asynchronous/long-distance communication
 
 ## Slide 15 - What is your timeline?
 **Week** | **Plan**
@@ -51,9 +53,9 @@ Week 5 | topic choosing / requirement analysis
 Week 6 | framework / prototype on whiteboard / proposal presentation
 Week 7 | Excel prototype / feature engineering
 Week 8 | Excel prototype / feature engineering
-Week 9 | distribute workload / implementation
+Week 9 | workload distribution / implementation
 Week 10 | implementation
 Week 11 | implementation
-Week 12 | integression 
-Week 13 | paper working / summarize
-Week 14 | final presentation
+Week 12 | integration 
+Week 13 | paper working / summarizing
+Week 14 | final webpage / video / final presentation

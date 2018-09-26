@@ -40,6 +40,7 @@ Developing based on **Agile Model**
 - Webpage
 - Video
 - Paper
+- Presentation
 - Publish on web server
 
 ## Slide 14 - How do you work together?

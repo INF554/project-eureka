@@ -1,10 +1,42 @@
 # INF 554 Assignment for 5
 
-- Lead with 10 words on why you chose this project
-- Why is your project interesting?
-- Who is the audience for your project?
-- Why is your visualization important?
-- How is your visualization useful?
+
+## Slide 1 - Introduction
+#### Group name: Eureka
+#### Project name: Metro Bike Sharing
+#### Group member:  
+* Yiran Li - liyiran@usc.edu
+* Xiner Ning - xinernin@usc.edu
+* Yueqin Yang - yueqinya@usc.edu
+
+## Slide 2 - Why we chose this project and Why is our project interesting?
+- Hobby 
+- Reduce traffic jam
+- Eco-friendly, reduce air pollution
+- New market
+- Close to our daily life
+- New area  no research before
+- Enough data and authentic
+
+## Slide 3 -  Who is the audience for our project?
+- L.A. residents
+- Visitors
+- Bike renting company
+- Professor / graders
+
+## Slide 4 - Why is our visualization important?
+- Reveal patterns and trends
+- Reveal features in data not otherwise apparent
+- Inform and engage more diverse audiences
+
+## Slide 5 - How is our visualization useful?
+- Carefully selected features
+- No fake data / preprocessed data
+- Use most suitable charts to display different features
+
+
+
+
 - What are you telling with your visualization? What is the story?
 - How do you plan to use interactive visuals?
 - What are your design considerations?

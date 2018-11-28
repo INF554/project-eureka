@@ -2,8 +2,8 @@
 
 ### PROJECT INFORMATION
 
-- Project title: <Metro Bike Sharing>
-- Group name: <Eureka>
+- Project title: Metro Bike Sharing
+- Group name: Eureka
 - Team names: [<Yiran Li> (<Yiran li - liyiran@usc.edu>) 
                <Xiner Ning> (<Xiner Ning - xinernin@usc.edu>) 
                <Yueqin Yang> (<Yueqin Yang - yueqinya@usc.edu>)]

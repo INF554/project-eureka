@@ -1,4 +1,4 @@
-# INF 554 Assignment for 5
+# INF 554 Final Presentation
 
 
 ## Slide 1 - Cover
@@ -11,46 +11,41 @@
 #### Link to Public Webpage:
 - [Metro Bike Sharing](http://www-scf.usc.edu/~liyiran/final/)
 
-## Slide 2 - what our visualization is about?
-- To show is the metro bike station set properly? 
+## Slide 2 - What our visualization is about?
+- To show does the metro bike station set properly? 
 - Does it need more stations in some regions?
 
-## Slide 3 -  Who is the audience for our project?
-- L.A. residents
-- Visitors
-- Bike renting company
-- Professor / graders
+## Slide 3 -  who is it addressed to?
+- Bike rental company
+- Professor, TA
 
-## Slide 4 - Why is our visualization important?
-- Reveal patterns and trends
-- Reveal features in data not otherwise apparent
-- Inform and engage more diverse audiences
+## Slide 4 - Why it is interesting, original, useful?
+- New market
+- Close to our daily life
+- New area no research before
+- Enough data and authentic
 
-## Slide 5 - How is our visualization useful?
-- Carefully selected features
-- No fake data / preprocessed data
-- Use most suitable charts to display different features
+## Slide 5 - Work distribution
+- Yiran: framework and maps
+- Xiner: navigation and charts
+- Yueqin: data and charts
 
-## Slide 6 - What are you telling with your visualization? What is the story?
-We do have a very long story to tell but some of them are **current** only in concept. The following list is something most realistic.
-_The list will be changed along with progress_
-- **Bicycle usage** based on _Line Chart_
-- **Station distribution** based on _Dot Map_
-- **Bike availability** based on _Proportional Symbol Map_ 
-etc...
+## Slide 6 - Explain that data and topic as needed to understand the project
+- we use a d3 map to show the combination of bike stations, public transportations, to show whether we need add stations in some new regions
+- we use the bar charts to show the usage for existing stations, to show whether we need add more docks for those existing stations
 
-## Slide 7- How do you plan to use interactive visuals?
-- [Google map javascript api](https://developers.google.com/maps/documentation/javascript/tutorial) 
-- [Mouse Event](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent) 
-- Different **filters** for letting user choose a portion of data without losing generality
+## Slide 7 - Researchs
+- Metro bike website
+- vue
+- bootstrop
+- professor examples
 
-## Slide 8- What are your design considerations?
-We have many different dimensions for design considerations which focus on different aspects, e.g. _technique_, _feature engineering_, _team building_, _collaboration_ etc.
-I, hereby, will focus on technique part. 
+## Slide 8 - What others have done in the same topic, other topics that are relevant?
+- Our project is NOT groundless. We stand on the shoulders of giants. After doing search some research, we find that our project is very unique. We list the current research for sharing economy
+- ofo / mobike - no satisfiable visualizations
+- Car-sharing e.g. Car-to-go real time info / chromatic data analysis
+- Metro bike existing visualization only has few dimensions / multi-charts
 
-In the website, we apply [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) architecture. _HTML_ and _CSS_ will take care of **View** while _Javascript_ is for **Model** and **View**.
-
-Equipped with the knowledge from the lecture, we use **Visualization wheel** for letting out interface elegant and different **design pattern**, e.g. _factory pattern_, _singleton pattern_ to increase _aggregation_ and decrease _coupling_. 
 ## Slide 9- What are the components that make your visualization cool?
 We, the People, is our core competence which will make our project looks elegant and robust (Forgive me, I do not like the word "cool" because it is so abstract). We have one artist, one senior team leader and an energetic freshman.
 - Excellent aesthetics
@@ -117,5 +112,5 @@ Week 14 | final webpage / video / final presentation
 
 ## Authors
 - Yiran Li
-- Xiner Ning
 - Yueqin Yang 
+- Xiner Ning

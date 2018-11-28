@@ -58,38 +58,20 @@ Our project is **NOT** groundless. We stand on the shoulders of giants. After do
 - Car-sharing e.g. [Car-to-go](https://en.wikipedia.org/wiki/Car2go) real time info / chromatic data analysis
 - [Metro bike](https://bikeshare.metro.net) existing visualization only has few dimensions / multi-charts analysis, diverse audiences
  
-## Slide 11 - What are the technologies you plan to use?
-- Bootstrap
-- D3.js
-- Google Maps API
-- Angular
-- React.js
-- Vue.js
-- Font Awesome
-- Underscore.js
-- Backbone.js
+## Slide 11 & 12 - Pie chart
+- Bike usage distribution: average bike used of each region in every month
+- `d3.pie()`
+- Dropdown box to select month
+- Interactive information card
+- Mouseover pop out effect
 
-## Slide 12 - How are you going to design, build, and evaluate?
-Developing based on **Agile Model**
-1. Design
-    - Brainstorm on whiteboard
-    - Inkscape digitalize
-    - Excel prototype
-2. Build
-    - Visual Studio Code - IDE
-    - JavaScript - programming language
-    - CSS - styling
-    - GitHub - version control
-3. Evaluate 
-    - Unit test for JavaScript
-    - Multi-browser testing
-    - A/B test
-## Slide 13 - What are your deliverables?
-- Webpage
-- Video
-- Paper
-- Presentation
-- Publish on web server
+## Slide 13 - Line chart
+- Bike usage trend along months: bike usage in summer months is significantly higher than winter months
+- `d3.line()`
+- Resposive
+- Mouseover pop out effect
+
+
 
 ## Slide 14 - How do you work together?
 - Meeting - brainstorm

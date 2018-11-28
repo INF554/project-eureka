@@ -11,6 +11,6 @@
 ### PROJECT ARTIFACTS
 
 - [Demonstration URL](<http://www-scf.usc.edu/~liyiran/final/>)
-- [Presentation PDF](<https://github.com/INF554Fall18/project-eureka/blob/master/final%20presentation/final.pdf>) and [transcript](<presentation-transcript-md-url>)
+- [Presentation PDF](<https://github.com/INF554Fall18/project-eureka/blob/master/final%20presentation/final.pdf>) and [transcript](<https://github.com/INF554Fall18/project-eureka/blob/master/final%20presentation/PRESENTATION_TRANSCRIPT.md>)
 - [Article](<article-pdf-url>) and [Overleaf URL](<overleaf-article-url>)
 - [YouTube video](<youtube-video-url>)

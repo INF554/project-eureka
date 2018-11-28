@@ -41,22 +41,19 @@
 - professor examples
 
 ## Slide 8 - What others have done in the same topic, other topics that are relevant?
-- Our project is NOT groundless. We stand on the shoulders of giants. After doing search some research, we find that our project is very unique. We list the current research for sharing economy
+- Our project is NOT groundless. We stand on the shoulders of giants. After doing search some research, we find that our project is very unique. 
+We list the current research for sharing economy
 - ofo / mobike - no satisfiable visualizations
 - Car-sharing e.g. Car-to-go real time info / chromatic data analysis
 - Metro bike existing visualization only has few dimensions / multi-charts
 
-In the website, we apply [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) architecture. _HTML_ and _CSS_ will take care of **View** while _Javascript_ is for **Model** and **View**.
+## Slide 9, Slide 10 - MAP
+ To optimize the visual queries, we try to make the interaction as simple and intuitive as possible. 
+ Once the user clicks a station on the map, the all charts will be changed to show the details because the mapbox sends an event to the sub components. 
+ The dropdown list can also send the event to the pie chart to show the information.
+ As user move the cursor over the graph, the corresponding component will also be changed. All interactions are quite popular and well known. We do not invent any new gestures.
+ In the website, we apply [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) architecture. _HTML_ and _CSS_ will take care of **View** while _Javascript_ is for **Model** and **View**.
 
-Equipped with the knowledge from the lecture, we use **Visualization wheel** for letting out interface elegant and different **design pattern**, e.g. _factory pattern_, _singleton pattern_ to increase _aggregation_ and decrease _coupling_. 
-## Slide 9- Explain our your design process, rationale for the layout, story, choice of forms
- 
- 
-## Slide 10- How you optimized the visual queries and user interaction
-To optimize the visual queries, we try to make the interaction as simple and intuitive as possible. 
-Once the user clicks a station on the map, the all charts will be changed to show the details because the mapbox sends an event to the sub components. 
-The dropdown list can also send the event to the pie chart to show the information.
-As user move the cursor over the graph, the corresponding component will also be changed. All interactions are quite popular and well known. We do not invent any new gestures.
  
 ## Slide 11 & 12 - Pie chart
 - Bike usage distribution: average bike used of each region in every month
@@ -84,7 +81,9 @@ The main job of the controller is to draw the graph and adjust the graphs based 
 Following that, the components can be invoked by the event bus and refresh the UI.   
 
 
-## Slide 15 - What is your timeline?
+## Slide 15 - What would you done differently?
+After doing some research, we have found the most of the current reports are based on Google map, which is highly coupling to Google service. However, we decide to use D3 to draw our map which can save tons of traffic and 
+make cache perform much better.
 **Week** | **Plan**
 --- | ---
 Week 5 | topic choosing / requirement analysis 

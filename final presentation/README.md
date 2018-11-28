@@ -46,17 +46,17 @@
 - Car-sharing e.g. Car-to-go real time info / chromatic data analysis
 - Metro bike existing visualization only has few dimensions / multi-charts
 
-## Slide 9- What are the components that make your visualization cool?
-We, the People, is our core competence which will make our project looks elegant and robust (Forgive me, I do not like the word "cool" because it is so abstract). We have one artist, one senior team leader and an energetic freshman.
-- Excellent aesthetics
-- Expertise on the data
-- Passion from our team-members
+In the website, we apply [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) architecture. _HTML_ and _CSS_ will take care of **View** while _Javascript_ is for **Model** and **View**.
+
+Equipped with the knowledge from the lecture, we use **Visualization wheel** for letting out interface elegant and different **design pattern**, e.g. _factory pattern_, _singleton pattern_ to increase _aggregation_ and decrease _coupling_. 
+## Slide 9- Explain our your design process, rationale for the layout, story, choice of forms
  
-## Slide 10- How does your visualization compare to what others have done?
-Our project is **NOT** groundless. We stand on the shoulders of giants. After doing search some research, we find that our project is very unique. We list the current research for [sharing economy](https://en.wikipedia.org/wiki/Sharing_economy)
-- [ofo](https://en.wikipedia.org/wiki/Ofo_(company)) / [mobike](https://en.wikipedia.org/wiki/Mobike) - no satisfiable visualizations
-- Car-sharing e.g. [Car-to-go](https://en.wikipedia.org/wiki/Car2go) real time info / chromatic data analysis
-- [Metro bike](https://bikeshare.metro.net) existing visualization only has few dimensions / multi-charts analysis, diverse audiences
+ 
+## Slide 10- How you optimized the visual queries and user interaction
+To optimize the visual queries, we try to make the interaction as simple and intuitive as possible. 
+Once the user clicks a station on the map, the all charts will be changed to show the details because the mapbox sends an event to the sub components. 
+The dropdown list can also send the event to the pie chart to show the information.
+As user move the cursor over the graph, the corresponding component will also be changed. All interactions are quite popular and well known. We do not invent any new gestures.
  
 ## Slide 11 & 12 - Pie chart
 - Bike usage distribution: average bike used of each region in every month
@@ -73,10 +73,16 @@ Our project is **NOT** groundless. We stand on the shoulders of giants. After do
 
 
 
-## Slide 14 - How do you work together?
-- Meeting - brainstorm
-- GitHub - distributed development
-- WeChat - asynchronous/long-distance communication
+## Slide 14 - Design process
+In order to work in parallel, we have divided our website into several components, e.g. Dot map in D3, mapbox map, line charts etc. 
+After having those components defined, each team member takes one or more components. Technically speaking, each component are in MVC structure. For view part, we use bootstrap to make the basic layout responsive.
+However, it is not sufficient since we also want to change the size of the chart correspondingly. To achieve that, we need to use our controller to redraw the graph, which will be explained later.
+In order to make our layout clearly, we put the general information on the top of the page and the details are below the general information. The colors of the graphs are also well considered. 
+We try to make the color as clear as possible.
+
+The main job of the controller is to draw the graph and adjust the graphs based on the size of the window. Once the user clicks an object, the GUI will send a event to the event bus that can reduce the coupling between the conponents.
+Following that, the components can be invoked by the event bus and refresh the UI.   
+
 
 ## Slide 15 - What is your timeline?
 **Week** | **Plan**

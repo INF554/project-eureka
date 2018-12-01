@@ -23,11 +23,11 @@ As a team, we emphosize the teamwork and have team meeting everyweek. During eac
 - [YouTube video](https://youtu.be/hElPSr1pnJY)
 
 ### Requirements
-d3 maps : dotmap
-responsive d3 charts: all charts
-interactive d3 charts: all charts
-d3 animated transitions: bar charts, pie chart, waterfall chart
-d3 layouts: line chart, pie chart
+- d3 maps : dotmap
+- responsive d3 charts: all charts
+- interactive d3 charts: all charts
+- d3 animated transitions: bar charts, pie chart, waterfall chart
+- d3 layouts: line chart, pie chart
 
 ### Set-up
 For using Vue.js in our project

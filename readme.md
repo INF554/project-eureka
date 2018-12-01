@@ -14,7 +14,7 @@
 - [Demonstration URL](<http://www-scf.usc.edu/~liyiran/final/>)
 - [Presentation PDF](<https://github.com/INF554Fall18/project-eureka/blob/master/final%20presentation/final.pdf>) and [transcript](<https://github.com/INF554Fall18/project-eureka/blob/master/final%20presentation/PRESENTATION_TRANSCRIPT.md>)
 - [Article](<https://github.com/INF554Fall18/project-eureka/blob/master/final_paper.pdf>) and [Overleaf URL](<https://www.overleaf.com/read/rsvmqbvvnsgh>)
-- [YouTube video](<youtube-video-url>)
+- [YouTube video](https://youtu.be/hElPSr1pnJY)
 
 ### Set-up
 For using Vue.js in our project

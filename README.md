@@ -22,6 +22,13 @@ As a team, we emphosize the teamwork and have team meeting everyweek. During eac
 - [Article](<https://github.com/INF554Fall18/project-eureka/blob/master/final_paper.pdf>) and [Overleaf URL](<https://www.overleaf.com/read/rsvmqbvvnsgh>)
 - [YouTube video](https://youtu.be/hElPSr1pnJY)
 
+### Requirements
+d3 maps : dotmap
+responsive d3 charts: all charts
+interactive d3 charts: all charts
+d3 animated transitions: bar charts, pie chart, waterfall chart
+d3 layouts: line chart, pie chart
+
 ### Set-up
 For using Vue.js in our project
 - Step 1: 

@@ -237,9 +237,10 @@
                     .attr('x', width / 2);
                 graph.select('#title-dif')
                     .attr('x', width / 2);
+                graph.select('#line-0')
+                    .attr('x2', width)
                 graph.selectAll('.bar-dif')
                     .data(this.current)
-                    .attr('class', 'bar')
                     .attr('x', function (d, i) { return that.xScale(that.dayFields[i]); })
                     .attr('y', function (d) {
                         if (d < 0) {

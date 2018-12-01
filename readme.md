@@ -138,3 +138,8 @@ Here is the code in App.vue, which is the entry point of the whole application.
 </style>
 
 ```
+
+## Authors
+- Yiran Li
+- Yueqin Yang 
+- Xiner Ning

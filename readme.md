@@ -9,6 +9,9 @@
   * Xiner Ning - xinernin@usc.edu
   * Yueqin Yang - yueqinya@usc.edu
 
+
+The original repository can be found in [Here](https://github.com/liyiran/metroBike). We have totally **127** commits. Please check the original repository if you want.
+
 ### PROJECT ARTIFACTS
 
 - [Demonstration URL](<http://www-scf.usc.edu/~liyiran/final/>)

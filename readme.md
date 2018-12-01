@@ -9,6 +9,12 @@
   * Xiner Ning - xinernin@usc.edu
   * Yueqin Yang - yueqinya@usc.edu
 
+
+The original repository can be found in [Here](https://github.com/liyiran/metroBike). We have totally **127** commits. Please check the original repository if you want.
+### Work distribution
+As a team, we emphosize the teamwork and have team meeting everyweek. During each meeting, we split the chart task into sub tasks and each one takes one sub task. In general, we split the work evenly.
+
+
 ### PROJECT ARTIFACTS
 
 - [Demonstration URL](<http://www-scf.usc.edu/~liyiran/final/>)
